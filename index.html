@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="beshified design and built by billy joel"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js" defer></script>
+    <title>Beshifier</title>
+  </head>
+  <body>
+    <main>
+      <div class="text_container">
+        <h1>Beshifier</h1>
+        <p>
+          Make your text 'beshified' by inputting it here, and let the magic
+          happen!🪄
+        </p>
+      </div>
+      <div class="beshifier_container">
+        <div class="input_container">
+          <label for="inputText">Boring Text</label>
+          <textarea
+            id="inputText"
+            rows="3"
+            placeholder="Input text here..."
+          ></textarea>
+        </div>
+        <div class="output">
+          <div class="output_container">
+            <label for="beshifiedOutput">Beshified Text</label>
+            <textarea
+              id="beshifiedOutput"
+              rows="5"
+              placeholder="Beshified output..."
+            ></textarea>
+          </div>
+          <button class="copy_btn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-clipboard"
+            >
+              <rect width="8" height="4" x="8" y="2" rx="1" ry="1" />
+              <path
+                d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"
+              />
+            </svg>
+            <span> Copy Text </span>
+          </button>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <small>©️Design & Built by Billy Joel</small>
+    </footer>
+  </body>
+</html>
